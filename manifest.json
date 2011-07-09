@@ -1,0 +1,11 @@
+{
+  "name": "豆瓣小组管理助手",
+  "version": "1.0.0",
+  "description": "",
+  "content_scripts": [
+    {
+      "matches": ["http://www.douban.com/group/topic/*"],
+      "run_at": "document_end",
+      "js": ["jquery-1.6.1.min.js", "group_admin.js"]
+    }]
+}
