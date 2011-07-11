@@ -1,13 +1,6 @@
-var lnks = $('.topic-opt a'), ban, del;
-
-for (var i = 0; i<lnks.length; i++) {
-    var lnk = $(lnks[i]);
-    if (lnk.text() === '封禁') {
-        ban = lnk;
-    } else if (lnk.text() === '删除') {
-        del = lnk;
-    }
-}
+var lnks = $('.topic-opt a'),
+ban = $(".topic-opt a:contains('封禁')"),
+del = $(".topic-opt a:contains('删除')");
 
 if (ban && del) {
     var ban_del = $('<a href="#">&gt;封禁并删除</a>').click(
