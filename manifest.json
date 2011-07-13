@@ -1,7 +1,7 @@
 {
   "name": "豆瓣小组管理助手",
-  "version": "1.0.0",
-  "description": "简化封禁并删除操作、找出僵尸用户",
+  "version": "1.0.2",
+  "description": "简化封禁与删除操作、找出僵尸用户",
   "content_scripts": [
     {
       "matches": ["http://www.douban.com/group/topic/*"],
