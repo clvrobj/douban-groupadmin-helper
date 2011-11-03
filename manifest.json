@@ -1,7 +1,7 @@
 {
   "name": "豆瓣小组管理助手",
-  "version": "1.0.2",
-  "description": "简化封禁与删除操作、找出僵尸用户",
+  "version": "1.0.3",
+  "description": "简化封禁与删除操作、找出僵尸用户、快速退出小组",
   "content_scripts": [
     {
       "matches": ["http://www.douban.com/group/topic/*"],
@@ -12,6 +12,11 @@
       "matches": ["http://www.douban.com/group/*/members*"],
       "run_at": "document_end",
       "js": ["jquery-1.6.1.min.js", "group_members.js"]
+    },
+    {
+      "matches": ["http://www.douban.com/group/mine"],
+      "run_at": "document_end",
+      "js": ["jquery-1.6.1.min.js", "group_manage.js"]
     }],
   "icons": {
     "16": "appicon_16.png",
