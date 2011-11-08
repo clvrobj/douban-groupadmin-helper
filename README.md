@@ -6,8 +6,9 @@
 
 ### 找出僵尸用户
 在用户列表中标注出僵尸用户（名号为“[已注销]”的用户），方便清理
+_Notice: 此功能不再被支持，由于豆瓣小组管理已经做了“扫描/清理已注销成员”功能_
 
 ### 快速退出小组
-在“我参加的小组”页面（http://www.douban.com/group/mine）快速退出小组
+在“[我参加的小组](http://www.douban.com/group/mine)”页面快速退出小组
 
-[link](https://chrome.google.com/webstore/detail/jfgffepggleibocpdkgfkgnkickjoham)
+[Chrome store link](https://chrome.google.com/webstore/detail/jfgffepggleibocpdkgfkgnkickjoham)
